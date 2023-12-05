@@ -27,20 +27,20 @@ export default class Estudante{
         this.nome = nome;
     }
 
-    public getEmail(){
-        return this.email;
-    }
-
-    public setEmail(email: string){
-        this.email = email;
-    }
-
     public getCurso(){
         return this.curso;
     }
 
     public setCurso(curso: string){
         this.curso = curso;
+    }
+    
+        public getEmail(){
+        return this.email;
+    }
+
+    public setEmail(email: string){
+        this.email = email;
     }
 
     public getMatricula(){
