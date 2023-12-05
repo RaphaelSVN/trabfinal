@@ -8,8 +8,8 @@ export default class Grupo{
 
     constructor (nome: string, numGrupo: number, numEstande: number, dataHora: Date, lider: string){
         this.nome= nome;
-        this.numGrupo = numGrupo;
         this.numEstande = numEstande;
+        this.numGrupo = numGrupo;
         this.dataHora = dataHora;
         this.lider = lider;
     }
