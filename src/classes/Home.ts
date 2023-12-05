@@ -5,7 +5,7 @@ import Estande  from "./Estande";
 import Grupo from "./Grupo";
 import Prof from "./Prof";
 
-const data = new Date ('Novembro 10, 1989 00:00:00')
+const data = new Date ('Dezembro 5, 2023 09:00:00')
 
 const estudante0 = new Estudante("RV", "rsvn@gmail.com", "xxx", "yyy", false);
 const estudante1 = new Estudante("JL", "jlp7@gmail.com", "lalala", "mimimi", false);
